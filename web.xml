@@ -1,0 +1,11 @@
+<web-app>
+<servlet>
+<servlet-name>ws</servlet-name>
+<servlet-class>info.inetsolv.WelcomeServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>ws</servlet-name>
+<url-pattern>/first</url-pattern>
+</servlet-mapping>
+</web-app>
